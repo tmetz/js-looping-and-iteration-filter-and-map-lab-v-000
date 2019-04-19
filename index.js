@@ -10,5 +10,5 @@ function driverNamesWithRevenueOver(drivers, revenue) {
   const driverNames = richDrivers.map(function(driver) {
     return driver.name;
   });
-  return richDrivers;
+  return driverNames;
 }
