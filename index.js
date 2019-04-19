@@ -23,7 +23,7 @@ function exactMatch(drivers, attVal) {
   });
 }
 
-function exactMathToList(drivers, attVal) {
+function exactMatchToList(drivers, attVal) {
   const matchingDrivers = exactMatch(drivers, attVal);
   const driverNames = matchingDrivers.map(function(driver) {
     return driver.name;
